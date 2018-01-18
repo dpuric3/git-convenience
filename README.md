@@ -26,6 +26,8 @@ eval "$(curl -L https://raw.githubusercontent.com/jakearchibald/git-convenience/
 
 * `gwut` - List all Git Convenience commands and prompt symbols
 * `gs` - git status
+* `gout` - git checkout
+* `gb` - git chckout -b (new branch)
 * `gaa` - Add all changes (including untracted files) to staging
 * `gc "Message"` - Commit all new files & changes with message
 * `goops` - Add changes to previous commit & edit comessage

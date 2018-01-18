@@ -4,6 +4,8 @@ alias gdiff='git diff --color-words'
 alias gclean='git gc --prune=now && git remote prune origin'
 alias glog='git log --graph --oneline --all --decorate'
 alias glogo='glog `git reflog | cut -c1-7`'
+alias gout='git checkout'
+alias gb='git checkout -b'
 
 if type git-up -t > /dev/null 2>&1; then
 	alias gup='git-up'
@@ -31,6 +33,8 @@ Git Convenience Shortcuts:
 - - - - - - - - - - - - - -
 gwut - List all Git Convenience commands and prompt symbols.
 gs - git status
+gout - git checkout
+gb - git checkout -b 
 gaa - Add all changes (including untracted files) to staging
 gc \"Message\" - Commit all new files & changes with message
 goops - Add changes to previous commit & edit comessage
